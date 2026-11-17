@@ -3,48 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Walking Date</title>
+    <title>The loving dead - Felizes ate a morte, e depois dela</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-    <h1 style="color:darkolivegreen; text-align: center">
-        <p>
-        <em> Até que a morte nos una devolta</em>
-        </p>
-    </h1>
-<nav>
-    <ul>
-    <li>
-    <a>
-    https://thumbs.dreamstime.com/b/bot%C3%A3o-iniciar-sinal-de-in%C3%ADcio-chave-press%C3%A3o-faixa-195883355.jpg
-    </a>
-    </li>
-    <li>
-    <a>
-    https://thumbs.dreamstime.com/b/carimbo-de-custo-benef%C3%ADcio-sinal-isolado-196541883.jpg
-    </a>
-    </li>
-    <li>
-    <a>
-    https://juntospormoema.com.br/wp-content/uploads/2021/12/botao-cadastrar-png-6.png
-    </a>
-    </li>
-    </ul>
-</nav>
-</header>
-<main>
-<section id="boas-vindas">
-    <h2>
-    me encanto pelo seu celebro
-    <h2>
-    <figure>
-    <img alt="Casar de zumbis felizes arrá saca">
-        https://pt.vecteezy.com/arte-vetorial/15726341-casal-de-zumbis-dos-desenhos-animados
-    <figcaption>
-        
-    </figcaption>
-    </figure>
-</section>
-</main>
+
+    <header>
+        <h1>The loving dead</h1>
+        <p>Encontre seu verdadeiro amor no <em>pós-vida</em>.</p>
+        <nav>
+            <ul>
+                <li><a href="#boas-vindas">Início</a></li>
+                <li><a href="#beneficios">Benefícios</a></li>
+                <li><a href="#cadastro">Cadastro</a></li>
+            </ul>
+        </nav>
+        <button id="btn-tema">Alternar Sobrevivência (Tema)</button>
+    </header>
+
+    <main>
+        <section id="boas-vindas">
+            <h2>Bem-vindo ao fungo do amor</h2>
+            <figure>
+                <img src="https://unsplash.com" alt="Casal de zumbis felizes">
+                <figcaption>Amor verdadeiro até com minhca na cabeça.</figcaption>
+            </figure>
+        </section>
+
+        <section id="beneficios">
+            <div>
+                <h2>Por que usar o The loving dead?</h2>
+                <ol>
+                    <li>Encontre parceiros que compartilham o gosto por encontros <strong>carnívoros</strong>.</li>
+                    <li>Sem julgamentos sobre a sua <strong>decomposição</strong> atual.</li>
+                    <li>Filtros avançados por <strong>velocidade de caminhada</strong> e apetite.</li>
+                </ol>
+            </div>
+
+            <aside class="cartao-zumbi">
+                <h3>Dica do copido mosca</h3>
+                <p>Mantenha distância segura de caras com um taco de beisibol eles sempre estouram sua cabeça.</p>
+            </aside>
+        </section>
+
+        <section id="depoimentos">
+            <h2>Histórias de Sucesso</h2>
+            <article class="cartao-zumbi">
+                <blockquote>
+                    "Achei que nunca mais sentiria meu coração bater, até dar match com a Sukal perto do cemitério Capovida."
+                </blockquote>
+                <cite>— Zé Caixão, 142 anos</cite>
+            </article>
+        </section>
+
+        <section id="faq">
+            <h2>Perguntas Frequentes</h2>
+            <details>
+                <summary>Zumbis veganos são aceitos?</summary>
+                <p>Sim! Temos uma comunidade crescente de mortos-vivos que preferem apenas plantas e raízes.</p>
+            </details>
+            <details>
+                <summary>E se eu perder um membro durante o encontro?</summary>
+                <p>Não se preocupe, nossa equipe de suporte oferece grampos e linhas de costura gratuitas.</p>
+            </details>
+        </section>
+
+        <section id="planos">
+            <h2>Tabela de Preços</h2>
+            <table>
+                <caption>Planos de Assinatura</caption>
+                <thead>
+                    <tr>
+                        <th>Plano</th>
+                        <th>Benefícios</th>
+                        <th>Preço em Cérebros</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Recém-Infectado</td>
+                        <td>Matches limitados por noite</td>
+                        <td>Grátis</td>
+                    </tr>
+                    <tr>
+                        <td>Horda VIP</td>
+                        <td>Matches ilimitados e super-mordidas</td>
+                        <td>3 Cérebros / mês</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="cadastro">
+            <h2>Faça seu Cadastro</h2>
+            <form action="#" method="POST">
+                <fieldset>
+                    <legend>Seus Dados Mortais</legend>
+
+                    <label for="nome">Nome do Zumbi:</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="email">E-mail de Contato:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <p>Dieta Principal:</p>
+                    <label><input type="radio" name="dieta" value="miolos"> Miolos</label>
+                    <label><input type="radio" name="dieta" value="musculos"> Músculos</label>
+                    <label><input type="radio" name="dieta" value="Ossos"> Ossos</label>
+                    <label><input type="radio" name="dieta" value="Todos"> Todos</label>
+                    
+                    
+
+                    <label for="decomposicao">Nível de Decomposição:</label>
+                    <select id="decomposicao" name="decomposicao">
+                        <option value="fresco">Recém-transformado (Fresco)</option>
+                        <option value="medio">Alguns ossos à mostra</option>
+                        <option value="avancado">Quase esqueleto</option>
+                    </select>
+
+                    <button type="submit" class="botao-match">Buscar Partida</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <small>&copy; 2026 The loving dead. Todos os direitos reservados aos podres joão & Arthur.</small>
+    </footer>
+
 </body>
 </html>
+
